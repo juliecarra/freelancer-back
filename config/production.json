@@ -1,5 +1,5 @@
 {
-  "MONGO_URI": "mongodb+srv://Julie:final@final-project-uvsux.mongodb.net/test?retryWrites=true&w=majority",
+  "MONGODB_URI": "mongodb://heroku_w4ghbzwj:8ej0l7009kmup55cgc1qja5nn6@ds047217.mlab.com:47217/heroku_w4ghbzwj",
   "jwtSecret": "mysecrettoken",
   "githubClientId": "963704755ef57b660d5b",
   "githubSecret": "93d75a239e474d60425c1dc3e36418824732838b"

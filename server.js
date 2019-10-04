@@ -1,6 +1,6 @@
 const express = require("express");
 const connectingDB = require("./config/db_connection");
-const { check, validationResult } = require("express-validator/check"); //Handle validation
+const { check, validationResult } = require("express-validator"); //Handle validation
 const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const path = require("path");
