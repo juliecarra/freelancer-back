@@ -1,5 +1,5 @@
 const bcrypt = require("bcryptjs");
-const { check, validationResult } = require("express-validator/check");
+const { check, validationResult } = require("express-validator");
 const config = require("config");
 const express = require("express");
 const gravatar = require("gravatar");
