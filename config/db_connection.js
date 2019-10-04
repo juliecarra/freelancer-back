@@ -1,7 +1,7 @@
 //Mongodb connection
 const config = require("config");
 const mongoose = require("mongoose");
-const MONGO_URI = config.get("MONGO_URI");
+const MONGODB_URI = config.get("MONGO_URI");
 
 const connectingDB = async () => {
   try {
